@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  
+    <meta charset="UTF-8" />
+  </head>
+
+
+
+  <body>
+    <div class="center">
+      <h1>To-do List</h1>
+      <input type="text" id="listInput" placeholder="New Task..." />
+      <button onclick="addNewTodo()">Add</button>
+
+      <ul id="myList">
+    <li>Drink Water</li>
+    <li>Brush and floss teeth</li>
+    <li>Exercise</li>
+    <li>Code</li>
+      </ul>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>
+
